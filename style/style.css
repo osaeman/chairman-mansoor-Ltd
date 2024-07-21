@@ -60,6 +60,32 @@ a {
   margin: 0 auto;
 }
 
+.text-ul > li {
+  text-indent: -23px;
+  margin-left: 28px;
+  margin-bottom: 10px;
+  font-weight: 500;
+  line-height: 2.4rem;
+}
+
+.heading-2 {
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  line-height: 3.5rem;
+  text-align: center;
+}
+.heading-3 {
+  font-weight: 600;
+  font-size: 2.2rem;
+  line-height: 2.9rem;
+}
+.text-p {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-bottom: 10px;
+  font-weight: 500;
+}
 /*----------- Pre Header---------- */
 .pre-header {
   background-color: #234056;
@@ -97,25 +123,24 @@ a {
 }
 /*------------- Header ------------*/
 .logo {
-  width: 100px;
+  width: 67px;
   cursor: pointer;
 }
-
 header {
   background-color: white;
 }
 .header--bg {
   /* background-color: var(--seconday-color); */
-
-  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-    rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
   box-shadow: rgba(33, 35, 38, 0.15) 0px 10px 10px -10px;
+}
+.selected_page {
+  color: var(--primay-color) !important;
 }
 .header-box {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 18px 0;
+  padding: 12px 0;
 }
 .navlinks {
   display: flex;
@@ -423,34 +448,29 @@ header {
   background-color: white;
   margin: 140px auto;
 }
-.areas-services-section h2 {
+.areas-services-section h3 {
   text-transform: capitalize;
   text-align: center;
   color: var(--primay-color);
   width: 80%;
-  max-width: 800px;
+  max-width: 850px;
   margin: 0 auto;
 }
 .areas-services-section p {
   text-transform: capitalize;
   text-align: center;
   padding-top: 20px;
-  font-size: 1.6rem;
-  line-height: 2.5rem;
-  font-weight: 600;
   width: 80%;
-  max-width: 700px;
+  max-width: 800px;
   margin: 0 auto;
+  font-weight: 600;
 }
 
 /*-------------- What Can We Do Section------------- */
 
 .what-we-can-section h2 {
-  font-size: 3rem;
-  text-align: center;
   text-transform: uppercase;
   color: #234056;
-  font-weight: 700;
   margin-bottom: 20px;
 }
 
@@ -537,12 +557,9 @@ header {
   margin: 120px auto;
 }
 .sectors-section h2 {
-  text-align: center;
   text-transform: uppercase;
-  font-size: 3rem;
-  font-weight: 700;
-  margin-bottom: 30px;
   color: #234056;
+  margin-bottom: 20px;
 }
 .sections-section-grid {
   display: grid;
@@ -570,7 +587,6 @@ footer {
   background-color: var(--fourth-color);
   color: white;
   padding: 40px 0 0 0;
-  /* background-color: #234056; */
 }
 footer h4 {
   font-weight: 600;
@@ -604,6 +620,7 @@ footer h4 {
   font-weight: 500;
   font-size: 1.6rem;
   text-transform: lowercase;
+  text-align: center;
 }
 .address {
   text-transform: uppercase !important;
@@ -637,6 +654,7 @@ footer h4 {
 .footer-flexbox-bottom .copyright {
   font-size: 1.3rem;
   font-weight: 600;
+  text-align: center;
 }
 
 /* ----------Privacy Policy Page------------- */
@@ -662,9 +680,10 @@ footer h4 {
   margin: 25px 0 4px 0;
 }
 .policy-section p {
-  font-size: 1.7rem;
+  font-size: 1.6rem;
   margin-bottom: 10px;
   line-height: 2.5rem;
+  font-weight: 500;
 }
 .policy-section ul {
   list-style: disc;
@@ -674,6 +693,7 @@ footer h4 {
 .policy-section ul li {
   text-indent: -22px;
   margin-left: 28px;
+  font-weight: 500;
   margin-bottom: 7px;
 }
 .policy-section ol {
@@ -687,7 +707,7 @@ footer h4 {
   margin-bottom: 7px;
 }
 
-/*------- About Us Page--------- */
+/*--------------------- About Us Page---------------------------- */
 .about-section {
   margin: 0 0 100px 0;
 }
@@ -696,38 +716,35 @@ footer h4 {
   position: relative;
   height: auto;
   transform: translateZ(0);
-  background-image: linear-gradient(35deg, #8dd9ff, #ffda00);
 }
 .intro img {
   position: relative;
   display: block;
   width: 100%;
-  height: 500px;
+  height: 450px;
   z-index: 1;
-  /* mix-blend-mode: multiply; */
   object-fit: cover;
-  object-position: 50% 77%;
+  object-position: 50% 80%;
 }
 
 .intro .caption {
   position: absolute;
-  bottom: 10%;
+  top: 50%;
+  transform: translateY(-50%);
   left: 0;
   width: 100%;
   text-align: center;
   z-index: 3;
-  color: white;
 }
 .intro .caption h1 {
   display: inline-block;
   width: fit-content;
-  font-size: 4.5rem;
-  font-weight: 600;
+  font-size: 3.8rem;
+  font-weight: 700;
   text-transform: uppercase;
   background-color: var(--primay-color);
-  color: var(--primay-color);
   color: white;
-  padding: 10px 30px;
+  padding: 10px 25px;
   border-radius: 4px;
 }
 
@@ -748,12 +765,8 @@ footer h4 {
   height: 100%;
 }
 
-.about-section-content h1 {
-  font-size: 2.4rem;
-  line-height: 2.8rem;
+.about-section-content h3 {
   color: var(--primay-color);
-  font-weight: 600;
-
   text-align: center;
   margin: 50px 0 10px 0;
 }
@@ -763,10 +776,6 @@ footer h4 {
   text-align: center;
 }
 .about-section-content p {
-  margin-bottom: 10px;
-  font-size: 1.7rem;
-  line-height: 2.5 rem;
-  font-weight: 500;
   text-align: center;
 }
 .about-section-content p b {
@@ -779,13 +788,8 @@ footer h4 {
 }
 
 .our-team h2 {
-  font-size: 3rem;
-  line-height: 4rem;
   color: #234056;
-  font-weight: 600;
-  margin-bottom: 20px;
-  text-transform: uppercase;
-  text-align: center;
+  margin-bottom: 40px;
 }
 
 .our-team-cards {
@@ -793,20 +797,20 @@ footer h4 {
   justify-content: space-between;
   align-items: center;
   flex-direction: row;
-  column-gap: 40px;
+  column-gap: 20px;
 }
 
 .our-team-card {
   background-color: white;
   display: grid;
-  grid-template-columns: 130px 1fr;
+  grid-template-columns: 120px 1fr;
   width: 100%;
   border-radius: 10px;
   box-shadow: 0px 3px 20px 3px rgba(191, 191, 191, 0.2);
 }
 
 .our-team-card img {
-  width: 120px;
+  width: 100%;
   border-radius: 10px;
 }
 .our-team-card div {
@@ -816,7 +820,7 @@ footer h4 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding-left: 20px;
+  padding: 5px 10px 5px 15px;
   border-top-right-radius: 10px;
   border-bottom-right-radius: 10px;
 }
@@ -832,242 +836,135 @@ footer h4 {
   font-weight: 600;
   display: block;
   color: white;
+  margin-bottom: 2px;
 }
-/* ---------Continental Benefits Section---------- */
-.continental-benefits-section {
+/* ---------SplitText Section (Chairman Mansoor Ltd Benefits) ---------- */
+.splitText-section {
   margin: 100px 0 0 0;
 }
-.continental-benefit-section-flexbox {
+.splitText-section-flexbox {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
 }
-.continental-benefits-section h2 {
-  font-size: 3rem;
-  line-height: 3.6rem;
+.splitText-section h2 {
   color: #234056;
-  font-weight: 600;
-  margin-bottom: 10px;
-  text-transform: uppercase;
-  text-align: center;
+  margin-bottom: 20px;
 }
-.continental-benefit-left {
+.splitText-section-flexbox-left {
   background-color: var(--grey-shade-light);
-  padding: 60px 6vw;
-  grid-column: 1;
+  padding: 60px 6vw 45px 6vw;
 }
-.continental-business-right {
-  grid-column: 2;
+.splitText-section-flexbox-right {
   background-color: var(--seconday-color);
-  padding: 60px 6vw;
+  padding: 60px 6vw 45px 6vw;
 }
 
-.continental-benefit-left p,
-.continental-business-right p {
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-.continental-benefit-left p b,
-.continental-business-right p b {
+.text-p b {
   color: var(--fourth-color);
 }
-/*------------ Security Officers Page---------------- */
-
-.security-officers-section {
-  margin: 100px auto;
+/*-------------------- Security Officers Page------------------------ */
+/* ----------------SplitLtoR Section (About Security Officers Section)------------ */
+.splitLtoR-section {
+  margin: 80px auto 100px auto;
 }
 
-.security-officers-section h1 {
-  font-size: 2.8rem;
-  line-height: 3.5rem;
+.splitLtoR-section h2 {
   color: var(--primay-color);
-  font-weight: 600;
   margin-bottom: 15px;
-  text-transform: uppercase;
-  text-align: center;
 }
 
-.security-officers-section span {
+.splitLtoR-section span {
   display: block;
   text-align: center;
   font-size: 1.8rem;
   font-weight: 500;
 }
 
-.security-officers-section-flexbox {
+.splitLtoR-section-flexbox {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   margin: 50px 0;
   grid-column-gap: 50px;
 }
 
-.security-officers-section-flexbox-left h2 {
-  font-size: 2.2rem;
-  line-height: 2.8rem;
+.splitLtoR-section-flexbox-left h3 {
   color: var(--primay-color);
-  font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
-.security-officers-section-flexbox-left ul {
+.splitLtoR-section-flexbox-left ul {
   list-style-type: disc;
   list-style-position: inside;
   padding-right: 6vw;
 }
 
-.security-officers-section-flexbox-left ul li {
-  text-indent: -23px;
-  margin-left: 28px;
-  margin-bottom: 10px;
-  font-weight: 500;
-  line-height: 2.4rem;
-}
-
-.security-officers-section-flexbox-right img {
+.splitLtoR-section-flexbox-right img {
   object-fit: cover;
   object-position: center;
   width: 100%;
+  border-radius: 20px;
+  height: 100%;
 }
 
-/* -----------Our Security Officers Section----------- */
-.our-officers-section {
-  margin: 120px 0 0 0;
-}
-
-.our-officers-section h2 {
-  font-size: 2.8rem;
-  line-height: 3.5rem;
-  color: #234056;
-  font-weight: 600;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
-.our-officers-section-flexbox {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-}
-
-.our-officers-section-flexbox-left {
-  background-color: var(--grey-shade-light);
-  padding: 70px 6vw;
-  grid-column: 1;
-}
-
-.our-officers-section-flexbox-left ul,
-.our-officers-section-flexbox-right ul {
+/* --------SplitText Section (Our Trained Officers) --------- */
+.splitText-section ul {
   list-style-type: disc;
   list-style-position: inside;
 }
-
-.our-officers-section-flexbox-left ul li,
-.our-officers-section-flexbox-right ul li {
-  text-indent: -23px;
-  margin-left: 28px;
-  margin-bottom: 10px;
-  font-weight: 500;
-  line-height: 2.4rem;
+/*------------------------ Security Devices Page----------------------------- */
+/*---------- Security Devices Section------------- */
+.splitRtoL-section {
+  margin: 80px auto 100px auto;
 }
-
-.our-officers-section-flexbox-right {
-  grid-column: 2;
-  background-color: var(--seconday-color);
-  padding: 70px 6vw;
+.splitRtoL-section-flexbox {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  margin: 50px 0;
+  grid-column-gap: 50px;
 }
-/*-------------- Security Devices Section------------ */
-.security-device-section {
-  margin: 100px auto;
-}
-.security-device-section h1 {
-  font-size: 2.8rem;
-  line-height: 3.5rem;
-  color: var(--primay-color);
-  font-weight: 600;
-  margin-bottom: 15px;
-  text-transform: uppercase;
-  text-align: center;
-}
-.security-device-section span {
+.splitRtoL-section span {
   display: block;
   text-align: center;
   font-size: 1.8rem;
-  line-height: 2.6rem;
-  font-weight: 500;
-}
-.security-device-section-flexbox {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  margin: 60px 0 0 0;
-  grid-column-gap: 50px;
-}
-
-.security-device-section-flexbox-left h2 {
-  font-size: 2.4rem;
-  line-height: 3.2rem;
-  color: var(--primay-color);
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-.security-device-section-flexbox-left ul {
-  list-style-type: disc;
-  list-style-position: inside;
-  padding-right: 6vw;
-}
-.security-device-section-flexbox-left ul li {
-  text-indent: -23px;
-  margin-left: 28px;
-  margin-bottom: 10px;
   font-weight: 500;
 }
 
-.security-device-section-flexbox-right img {
+.splitRtoL-section-flexbox-left img {
   object-fit: cover;
   object-position: center;
   border-radius: 20px;
   width: 100%;
+  height: 100%;
 }
 
-.security-device-section-alarm-flexbox-left img {
-  object-fit: cover;
-  object-position: center;
-  border-radius: 20px;
-  width: 100%;
+.splitRtoL-section h2 {
+  color: var(--primay-color);
+  margin-bottom: 15px;
 }
 
-.security-device-section-flexbox-alarm-right ul {
+.splitRtoL-section-flexbox-right ul {
   list-style-type: disc;
   list-style-position: inside;
   padding-right: 6vw;
 }
-.security-device-section-flexbox-alarm-right ul li {
-  text-indent: -23px;
-  margin-left: 28px;
-  margin-bottom: 10px;
-  font-weight: 500;
-}
-.security-device-section-flexbox-alarm-right h2 {
-  font-size: 2.4rem;
-  line-height: 3.2rem;
+
+.splitRtoL-section-flexbox-right h3 {
   color: var(--primay-color);
-  font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 /* ------------Contact Us page---------------- */
 .contact-form-container {
+  background-color: #fafafa;
+}
+.contact-form-container > div {
   position: relative;
-  width: 100%;
-  min-height: 100vh;
-  padding: 2rem;
-  background-color: white;
   overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: center;
-  /* margin-top: 10px; */
-  background-color: #fafafa;
+  padding: 80px 0;
 }
-
 .form {
   width: 100%;
   max-width: 1000px;
@@ -1187,7 +1084,7 @@ textarea.input {
   font-size: 1.6rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: var(--primary-clr);
+  color: #234056;
   line-height: 1;
   border-radius: 5px;
   outline: none;

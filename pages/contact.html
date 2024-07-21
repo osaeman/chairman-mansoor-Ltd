@@ -24,7 +24,11 @@
     <meta name="googlebot" content="index, follow" />
     <meta name="google" content="nositelinkssearchbox" />
 
-    <!-- <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" /> -->
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.png"
+      type="image/x-icon"
+    />
 
     <!-- Google Fonts -->
     <!-- Preconnecting can help reduce the latency when actual requests are made to this domain, such as when fetching font resources. -->
@@ -62,7 +66,7 @@
     <!-- Header -->
     <header class="header--bg">
       <div class="container header-box">
-        <img src="../assets/feildz ltd.png" alt="" class="logo" />
+        <img src="../assets/site logo.png" alt="" class="logo" />
         <nav>
           <ul class="navlinks SMN_effect-31">
             <li class="nav-item">
@@ -85,7 +89,10 @@
             </li>
 
             <li class="nav-item">
-              <a href="./contact.html" data-hover="Contact"
+              <a
+                href="./contact.html"
+                data-hover="Contact"
+                class="selected_page"
                 ><span>Contact</span></a
               >
             </li>
@@ -106,72 +113,76 @@
               <a href="./security-devices.html">Security Devices</a>
             </li>
 
-            <li class="items"><a href="./contact.html">Contact</a></li>
+            <li class="items">
+              <a href="./contact.html" class="selected_page">Contact</a>
+            </li>
 
-            <img src="./assets/feildz ltd.png" alt="" />
+            <img src="../assets/site logo.png" alt="" />
           </ul>
         </nav>
       </div>
     </header>
     <!-- Contact Us Page -->
-    <div class="contact-form-container">
-      <img src="img/shape.png" class="square" alt="" />
-      <div class="form">
-        <div class="contact-info">
-          <h3 class="title">Let's get in touch</h3>
-          <p class="text">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe
-            dolorum adipisci recusandae praesentium dicta!
-          </p>
+    <section class="contact-form-container">
+      <div class="container">
+        <img src="img/shape.png" class="square" alt="" />
+        <div class="form">
+          <div class="contact-info">
+            <h3 class="title">Let's get in touch</h3>
+            <p class="text">
+              Feel free to reach out to us through any of these communication
+              channels at any time.
+            </p>
 
-          <div class="info">
-            <div class="information">
-              <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
+            <div class="info">
+              <div class="information">
+                <i class="fas fa-map-marker-alt"></i> &nbsp &nbsp
 
-              <p>97 Ingram road, Thornton heath, CR7 8 EH</p>
-            </div>
-            <div class="information">
-              <i class="fas fa-envelope"></i> &nbsp &nbsp
-              <p>info@chairmanmansoorltd.co.uk</p>
-            </div>
-            <div class="information">
-              <i class="fas fa-phone"></i>&nbsp&nbsp
-              <p>07577 778 592</p>
+                <p>97 Ingram road, Thornton heath, CR7 8 EH</p>
+              </div>
+              <div class="information">
+                <i class="fas fa-envelope"></i> &nbsp &nbsp
+                <p>info@chairmanmansoorltd.co.uk</p>
+              </div>
+              <div class="information">
+                <i class="fas fa-phone"></i>&nbsp&nbsp
+                <p>07577 778 592</p>
+              </div>
             </div>
           </div>
-        </div>
 
-        <div class="contact-form">
-          <span class="circle one"></span>
-          <span class="circle two"></span>
+          <div class="contact-form">
+            <span class="circle one"></span>
+            <span class="circle two"></span>
 
-          <form action="index.html" autocomplete="off">
-            <h3 class="title">Contact Us</h3>
-            <div class="input-container">
-              <input type="text" name="name" class="input" />
-              <label for="">Username</label>
-              <span>Username</span>
-            </div>
-            <div class="input-container">
-              <input type="email" name="email" class="input" />
-              <label for="">Email</label>
-              <span>Email</span>
-            </div>
-            <div class="input-container">
-              <input type="tel" name="phone" class="input" />
-              <label for="">Phone</label>
-              <span>Phone</span>
-            </div>
-            <div class="input-container textarea">
-              <textarea name="message" class="input"></textarea>
-              <label for="">Message</label>
-              <span>Message</span>
-            </div>
-            <input type="submit" value="Send" class="btn" />
-          </form>
+            <form action="index.html" autocomplete="off">
+              <h3 class="title">Contact Us</h3>
+              <div class="input-container">
+                <input type="text" name="name" class="input" />
+                <label for="">Username</label>
+                <span>Username</span>
+              </div>
+              <div class="input-container">
+                <input type="email" name="email" class="input" />
+                <label for="">Email</label>
+                <span>Email</span>
+              </div>
+              <div class="input-container">
+                <input type="tel" name="phone" class="input" />
+                <label for="">Phone</label>
+                <span>Phone</span>
+              </div>
+              <div class="input-container textarea">
+                <textarea name="message" class="input"></textarea>
+                <label for="">Message</label>
+                <span>Message</span>
+              </div>
+              <input type="submit" value="Send" class="btn" />
+            </form>
+          </div>
         </div>
       </div>
-    </div>
+    </section>
 
     <!------------ Footer------------>
     <footer>
@@ -215,7 +226,7 @@
       </div>
     </footer>
 
-    <script src="./js/app.js"></script>
+    <script src="../js/app.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"

@@ -24,7 +24,7 @@
     <meta name="googlebot" content="index, follow" />
     <meta name="google" content="nositelinkssearchbox" />
 
-    <!-- <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" /> -->
+    <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" />
 
     <!-- Google Fonts -->
     <!-- Preconnecting can help reduce the latency when actual requests are made to this domain, such as when fetching font resources. -->
@@ -62,11 +62,13 @@
     <!-- Header -->
     <header>
       <div class="container header-box">
-        <img src="./assets/feildz ltd.png" alt="" class="logo" />
+        <img src="./assets/site logo.png" alt="" class="logo" />
         <nav>
           <ul class="navlinks SMN_effect-31">
             <li class="nav-item">
-              <a href="./index.html" data-hover="Home"><span>Home</span></a>
+              <a href="./index.html" data-hover="Home" class="selected_page"
+                ><span>Home</span></a
+              >
             </li>
             <li class="nav-item">
               <a href="./pages/aboutus.html" data-hover="About"
@@ -101,7 +103,9 @@
             <li onclick="closeSidebar()" class="close-icon">
               <a href="#"><ion-icon name="close-outline"></ion-icon></a>
             </li>
-            <li class="items"><a href="./index.html">Home</a></li>
+            <li class="items">
+              <a href="./index.html" class="selected_page">Home</a>
+            </li>
             <li class="items"><a href="./pages/about.html">About</a></li>
             <li class="items">
               <a href="./pages/security-officers.html">Security Officers</a>
@@ -112,7 +116,7 @@
 
             <li class="items"><a href="./pages/contact.html">Contact</a></li>
 
-            <img src="./assets/feildz ltd.png" alt="" />
+            <img src="./assets/site logo.png" alt="" />
           </ul>
         </nav>
       </div>
@@ -133,7 +137,7 @@
         <div class="security-cards-gird-1">
           <div class="card-hover">
             <div class="card-hover__content">
-              <h3 class="card-hover__title">SIA Training</h3>
+              <h4 class="card-hover__title">SIA Training</h4>
               <p class="card-hover__text">
                 Quickly earn key security certifications to enhance skills,
                 boost career opportunities, and ensure regulatory compliance.
@@ -144,7 +148,7 @@
           </div>
           <div class="card-hover">
             <div class="card-hover__content">
-              <h3 class="card-hover__title">CCTV Courses</h3>
+              <h4 class="card-hover__title">CCTV Courses</h4>
               <p class="card-hover__text">
                 Master surveillance techniques and earn your certification as a
                 CCTV specialist to ensure security and safety.
@@ -155,7 +159,7 @@
           </div>
           <div class="card-hover">
             <div class="card-hover__content">
-              <h3 class="card-hover__title">Traffic Marshal</h3>
+              <h4 class="card-hover__title">Traffic Marshal</h4>
               <p class="card-hover__text">
                 Gain essential traffic control skills and ensure safety at
                 events and construction sites with professional guidance.
@@ -166,7 +170,7 @@
           </div>
           <div class="card-hover">
             <div class="card-hover__content">
-              <h3 class="card-hover__title">Fire Marshal</h3>
+              <h4 class="card-hover__title">Fire Marshal</h4>
               <p class="card-hover__text">
                 Acquire the knowledge to enhance safety in any environment by
                 being equipped to prevent, respond to, and manage fire
@@ -180,7 +184,7 @@
         <div class="security-cards-gird-2">
           <div class="card-hover">
             <div class="card-hover__content">
-              <h3 class="card-hover__title">CSCS Labour</h3>
+              <h4 class="card-hover__title">CSCS Labour</h4>
               <p class="card-hover__text">
                 Take your first step into the construction industry, showcasing
                 your skills and suitability as a competent and safe worker.
@@ -191,7 +195,7 @@
           </div>
           <div class="card-hover">
             <div class="card-hover__content">
-              <h3 class="card-hover__title">Door supervisor Course</h3>
+              <h4 class="card-hover__title">Door supervisor Course</h4>
               <p class="card-hover__text">
                 Acquire the knowledge and self-assurance required to guarantee
                 security and safety in the entertainment and nightlife sectors.
@@ -202,7 +206,7 @@
           </div>
           <div class="card-hover">
             <div class="card-hover__content">
-              <h3 class="card-hover__title">Door Supervisor Topup</h3>
+              <h4 class="card-hover__title">Door Supervisor Topup</h4>
               <p class="card-hover__text">
                 Enhance your security skills and stay current with the latest
                 door supervision regulations.
@@ -218,11 +222,11 @@
     <!-------------- Areas of Services --------------->
     <section class="areas-services-section">
       <div class="container">
-        <h2>
+        <h3 class="heading-3">
           Security services in London, Essex, and across the United Kingdom for
           the retail, residential, commercial, and construction industries.
-        </h2>
-        <p>
+        </h3>
+        <p class="text-p">
           In London, Essex, and the whole UK, Chairman Mansoor ltd UK
           specializes in offering security services. We have specific insight of
           the retail and construction industries and experience in several other
@@ -232,7 +236,7 @@
     </section>
     <!------------- What we Can do Section ------------>
     <section class="what-we-can-section container">
-      <h2>How we can help you!</h2>
+      <h2 class="heading-2">How we can help you!</h2>
       <span
         >Chairman Mansoor Ltd delivers a range of security solutions tailored
         for both commercial and residential clients..</span
@@ -290,33 +294,10 @@
           <li><b>Key Holding and Managment</b></li>
         </ul>
       </div>
-
-      <!-- <div class="services-card">
-        <div>
-          <img src="./assets/cctv.jpg" alt="" />
-          <h4>Cctv</h4>
-        </div>
-        <div>
-          <img src="./assets/barrier.jpg" alt="" />
-          <h4>Barrier</h4>
-        </div>
-        <div>
-          <img src="./assets/biometric.jpg" alt="" />
-          <h4>Biometrics</h4>
-        </div>
-        <div>
-          <img src="./assets/monitering.jpg" alt="" />
-          <h4>Monitering</h4>
-        </div>
-        <div>
-          <img src="./assets/guard.jpg" alt="" />
-          <h4>Manned Guarding</h4>
-        </div>
-      </div> -->
     </section>
     <!-- Sectors Section -->
     <section class="sectors-section container">
-      <h2>Our Clientele and Industries Served</h2>
+      <h2 class="heading-2">Our Clientele and Industries Served</h2>
       <div class="sections-section-grid">
         <span>Construction</span>
         <span>Retail</span>

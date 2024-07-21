@@ -24,7 +24,11 @@
     <meta name="googlebot" content="index, follow" />
     <meta name="google" content="nositelinkssearchbox" />
 
-    <!-- <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon" /> -->
+    <link
+      rel="shortcut icon"
+      href="../assets/favicon.png"
+      type="image/x-icon"
+    />
 
     <!-- Google Fonts -->
     <!-- Preconnecting can help reduce the latency when actual requests are made to this domain, such as when fetching font resources. -->
@@ -62,14 +66,14 @@
     <!-- Header -->
     <header>
       <div class="container header-box">
-        <img src="../assets/feildz ltd.png" alt="" class="logo" />
+        <img src="../assets/site logo.png" alt="" class="logo" />
         <nav>
           <ul class="navlinks SMN_effect-31">
             <li class="nav-item">
               <a href="../index.html" data-hover="Home"><span>Home</span></a>
             </li>
             <li class="nav-item">
-              <a href="./aboutus.html" data-hover="About"
+              <a href="./aboutus.html" data-hover="About" class="selected_page"
                 ><span>About </span></a
               >
             </li>
@@ -98,7 +102,9 @@
               <a href="#"><ion-icon name="close-outline"></ion-icon></a>
             </li>
             <li class="items"><a href="../index.html">Home</a></li>
-            <li class="items"><a href="./aboutus.html">About</a></li>
+            <li class="items">
+              <a href="./aboutus.html" class="selected_page">About</a>
+            </li>
             <li class="items">
               <a href="./security-officers.html">Security Officers</a>
             </li>
@@ -108,7 +114,7 @@
 
             <li class="items"><a href="./contact.html">Contact</a></li>
 
-            <img src="./assets/feildz ltd.png" alt="" />
+            <img src="../assets/site logo.png" alt="" />
           </ul>
         </nav>
       </div>
@@ -141,14 +147,14 @@
         </span>
       </figure>
       <div class="about-section-content container">
-        <h1>
+        <h3 class="heading-3">
           Get to Know Us Better—Be Safe with Chairman Mansoor Ltd Services.
-        </h1>
+        </h3>
         <span>
           The founding principles of Chairman Mansoor Ltd UK are
           confidentiality, integrity, reliability, and professionalism.
         </span>
-        <p>
+        <p class="text-p">
           With over fifteen years of experience, the company is well-known for
           providing excellent service standards. Furthermore, our company has
           received Safe Contractor Approval, meaning that our clients can be
@@ -166,7 +172,7 @@
 
     <!-- Our Team Section -->
     <section class="our-team container">
-      <h2>Our Team</h2>
+      <h2 class="heading-2">Our Team</h2>
       <div class="our-team-cards">
         <div class="our-team-card">
           <img src="../assets/822.jpg" alt="" />
@@ -191,53 +197,53 @@
         </div>
       </div>
     </section>
-    <!------------- Continental Benefits --------------->
-    <section class="continental-benefits-section">
-      <h2>Chairman Mansoor Ltd. Benefits</h2>
-      <div class="continental-benefit-section-flexbox">
-        <div class="continental-benefit-left">
-          <p>
+    <!------------- SplitText Section (Chairman Mansoor Ltd Benefits) --------------->
+    <section class="splitText-section">
+      <h2 class="heading-2">Chairman Mansoor Ltd. Benefits</h2>
+      <div class="splitText-section-flexbox">
+        <div class="splitText-section-flexbox-left">
+          <p class="text-p">
             <b> Chairman Mansoor Ltd. </b>
             boasts a solid track record of accomplishments. We provide each and
             every one of our clients with specialized solutions and unmatched
             post-sale support. Our employees can be sent out on short notice,
             and no task is deemed unimportant.
           </p>
-          <p>
+          <p class="text-p">
             A unique approach is taken by Chairman Mansoor Ltd, when providing
             contract security services. To continuously uphold the highest
             standards of security, we use a methodical, cooperative, and
             non-confrontational approach. Our employees are extremely driven and
             display total professionalism.
           </p>
-          <p>
+          <p class="text-p">
             We take pleasure in being proactive and in our ability to react to
             our customers' needs quickly.
           </p>
-          <p>
+          <p class="text-p">
             In order to guarantee this, Chairman Mansoor Ltd drafts a Service
             Level Agreement (SLA) that is accepted by both parties and provides
             total comfort.
           </p>
-          <p>
+          <p class="text-p">
             A group of SIT0-approved trainers at Chairman Mansoor Ltd are fully
             qualified to provide training and assessments in a variety of
             fields, including health.
           </p>
         </div>
-        <div class="continental-business-right">
-          <p>
-            and requirements for SIT0 manned and patrolled units, as well as
-            first aid, conflict resolution, and safety. Furthermore, our area of
+        <div class="splitText-section-flexbox-right">
+          <p class="text-p">
+            Requirements for SIT0 manned and patrolled units, as well as first
+            aid, conflict resolution, and safety. Furthermore, our area of
             expertise is providing cutting-edge electronic swipe systems, access
             control, CCTV installation and monitoring, a variety of entry locks,
             and locking system options.
           </p>
-          <p>
+          <p class="text-p">
             Our employees always wear business attire and are given a complete
             uniform that is suitable for the nature of the job.
           </p>
-          <p>
+          <p class="text-p">
             With the ability to adapt and combine its services, Continental
             Guards can match the specific needs of each of our clients. We
             provide both traditional
@@ -245,7 +251,7 @@
             in addition to providing operational and logistical professionals as
             needed.
           </p>
-          <p>
+          <p class="text-p">
             Chairman Mansoor Ltd. has established
             <b>a well-respected reputation</b>
             for itself in the sector. Most of our clients have been with us for
@@ -299,7 +305,7 @@
       </div>
     </footer>
 
-    <script src="./js/app.js"></script>
+    <script src="../js/app.js"></script>
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"

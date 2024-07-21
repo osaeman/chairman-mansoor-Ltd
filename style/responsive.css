@@ -1,489 +1,279 @@
 @media (max-width: 1024px) {
-  .logo img {
-    height: 70px;
+  .logo {
+    width: 55px;
   }
-  .hero-content h1 {
-    font-size: 3.6rem;
-    width: 80%;
+  .pre-header__box div a {
+    font-size: 1.5rem;
   }
-
-  .hero-section {
-    height: 100vh;
+  .heading-2 {
+    font-size: 2.6rem;
+    line-height: 3.4rem;
   }
-  .hero-section img {
-    height: 100vh;
-  }
-
-  .hero-content-container {
-    top: 40%;
-    transform: translateY(-40%);
+  .heading-3 {
+    font-size: 2.1rem;
+    line-height: 2.8rem;
   }
 
-  .security-cards {
-    margin-top: -50px;
+  /* ------------Security Devices and Security Officers Page--------------*/
+  .splitLtoR-section {
+    margin: 60px auto 60px auto;
   }
-  .security-cards-gird-1 {
-    grid-template-columns: repeat(2, 1fr);
+  .splitRtoL-section {
+    margin: 60px auto 60px auto;
   }
-  .security-cards-gird-2 {
-    grid-template-columns: repeat(2, 1fr);
+  .splitLtoR-section-flexbox-left ul {
+    padding-right: 0;
   }
-  .ag-courses-item_link {
-    padding: 25px 25px;
+  .splitLtoR-section h2 {
+    color: var(--primay-color);
+    margin-bottom: 10px;
   }
-  .ag-courses-item_title {
-    font-size: 23px;
+  .splitRtoL-section h2 {
+    color: var(--primay-color);
+    margin-bottom: 10px;
   }
-
-  .ag-courses-item_content {
-    font-size: 16px;
-  }
-  .contact-us-section-form {
-    width: 75%;
-  }
-  .footer-flexbox-top {
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-  }
-  .footer-flexbox-top div {
-    flex-direction: row;
-    justify-content: flex-start;
-    align-items: center;
-    width: 100%;
-  }
-  .footer-flexbox-top div i {
-    margin-bottom: 0;
-    margin-right: 15px;
-  }
-  .footer-flexbox-top h3 {
-    text-align: left;
-  }
-
-  .security-officers-section-flexbox {
+  .splitLtoR-section-flexbox {
+    display: flex;
+    flex-direction: column-reverse;
     grid-template-columns: repeat(1, 1fr);
+    margin: 20px 0 0 0;
     grid-column-gap: 0;
-    grid-row-gap: 20px;
-    margin: 25px 0;
+    row-gap: 35px;
+  }
+  .splitLtoR-section-flexbox-right img {
+    aspect-ratio: 1/0.45;
   }
 
-  .security-officers-section-flexbox-right img {
-    border-radius: 20px;
-    height: 400px;
-    width: 100%;
+  .splitRtoL-section-flexbox-left img {
+    aspect-ratio: 1/0.45;
   }
-  /* Security Devices Section */
-  .security-device-section {
+  .splitRtoL-section-flexbox-right ul {
+    padding-right: 0;
+  }
+  .splitRtoL-section-flexbox {
+    display: flex;
+    flex-direction: column;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px 0 0 0;
+    grid-column-gap: 0;
+    row-gap: 35px;
+  }
+  .splitLtoR-section span,
+  .splitRtoL-section span {
+    font-size: 1.7rem;
+  }
+  /* --------------About Us Page---------------- */
+  .about-section {
+    margin: 0 0 80px 0;
+  }
+  .our-team h2 {
+    margin-bottom: 25px;
+  }
+  .intro img {
+    height: 350px;
+    object-position: 50% 85%;
+  }
+  .intro .caption h1 {
+    font-size: 3rem;
+    padding: 8px 20px;
+  }
+  .our-team {
     margin: 90px auto;
   }
-  .security-device-section-flexbox {
-    grid-template-columns: repeat(1, 1fr);
-    margin: 50px 0 0 0;
-    grid-column-gap: 0;
-    grid-row-gap: 30px;
+  .our-team-cards {
+    flex-direction: column;
+    column-gap: 0;
+    row-gap: 15px;
   }
-  .security-device-section-flexbox-right img {
-    height: 400px;
+  .our-team-card {
+    max-width: 500px;
+    width: 100%;
   }
-  .security-device-section-alarm-flexbox-left img {
-    height: 400px;
+  .splitText-section-flexbox-left {
+    padding: 50px 6vw 40px 6vw;
   }
-  .what-we-can-section .what-we-can-section-grid {
-    grid-column-gap: 15px;
-    margin: 30px 0;
-  }
-  .sections-section-grid {
-    width: 90%;
-  }
-  .services-card {
-    grid-template-columns: repeat(3, 1fr);
+  .splitText-section-flexbox-right {
+    padding: 50px 6vw 40px 6vw;
   }
 }
 @media (max-width: 786px) {
-  .hero-content h1 {
-    font-size: 3.3rem;
-    width: 80%;
-    line-height: 4rem;
-  }
-
   .menu {
     display: none;
   }
   .icon {
     display: block;
   }
-  .logo img {
-    height: 90px;
-  }
-  .contact-us-section-form {
-    width: 85%;
-  }
-  .logo img {
-    height: 70px;
-  }
-  .about-section-container {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .about-section-container-left h1 {
-    width: 90%;
-  }
-  .about-section-container-left p {
-    width: 90%;
-  }
-  .our-team h2 {
-    font-size: 2.5rem;
-  }
-
-  .our-team-cards {
-    flex-direction: column;
-    column-gap: 0;
-    row-gap: 30px;
-  }
-  .our-team-card {
-    padding: 30px 10px;
-  }
-  .continental-benefits-section {
-    margin: 80px 0;
-  }
-  .continental-benefit-section-flexbox {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .continental-benefit-left {
-    padding: 40px 6vw 0 6vw;
-    grid-column: 1;
-    background-color: var(--grey-shade-dark);
-  }
-  .continental-business-right {
-    grid-column: 1;
-    padding: 0 6vw 40px 6vw;
-  }
-  .continental-benefit-left p,
-  .continental-business-right p {
-    margin-bottom: 10px;
-    font-size: 1.4rem;
-    line-height: 2.1rem;
-  }
-
-  .continental-benefits-section h2 {
-    font-size: 2.5rem;
-  }
-  .our-officers-section {
-    margin: 80px 0;
-  }
-
-  .our-officers-section h2 {
-    font-size: 2.5rem;
-  }
-
-  .our-officers-section-flexbox {
-    grid-template-columns: repeat(1, 1fr);
-  }
-
-  .our-officers-section-flexbox-left {
-    padding: 40px 6vw 0 6vw;
-    grid-column: 1;
-    background-color: var(--grey-shade-dark);
-  }
-
-  .our-officers-section-flexbox-right {
-    grid-column: 1;
-    padding: 0 6vw 40px 6vw;
-  }
-  .security-officers-section h1 {
-    text-align: left;
-  }
-
-  .security-officers-section span {
-    text-align: left;
-  }
-  .security-device-section h1 {
-    text-align: left;
-  }
-  .security-device-section span {
-    text-align: left;
-  }
-  .security-device-section-flexbox {
-    margin: 20px 0 0 0;
-  }
-  .what-we-can-section .what-we-can-section-grid {
-    grid-column-gap: 0;
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .sectors-section {
-    margin: 80px auto;
-  }
-  .sectors-section h2 {
-    font-size: 2.5rem;
-  }
-  .sections-section-grid {
-    grid-template-columns: repeat(1, 1fr);
-    grid-column-gap: 20px;
-  }
-  .what-we-can-section h2 {
-    font-size: 2.5rem;
-    margin-bottom: 10px;
-  }
-
-  .what-we-can-section span {
-    font-size: 2rem;
-  }
-  .services-card {
-    grid-template-columns: repeat(2, 1fr);
-  }
-  .services-card img {
-    aspect-ratio: 4/3;
-  }
-
   .pre-header__box div i {
     font-size: 1.4rem;
     margin-right: 4px;
   }
-
   .pre-header__box div a {
     font-size: 1.3rem;
   }
-  .pre-header__box {
-    padding: 12px 0;
-  }
-
   .logo {
-    width: 90px;
+    width: 50px;
   }
   .header-box {
-    padding: 12px 0;
+    padding: 8px 0;
+  }
+
+  .navlinks > li {
+    margin: 0 0 0 20px;
   }
   .contactUs-btn button {
     font-size: 1.4rem;
     padding: 8px 18px;
   }
-  .navlinks > li {
-    margin: 0 0 0 20px;
+  .heading-2 {
+    font-size: 2.4rem;
+    line-height: 3.1rem;
+  }
+
+  /* -----------------Privacy and Terms of Use Page---------------------- */
+  .policy-section {
+    margin: 60px auto;
+  }
+  .policy-section h1 {
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+  }
+  .policy-section h2 {
+    font-size: 1.9rem;
+  }
+  .policy-section h3 {
+    font-size: 1.7rem;
+  }
+  .policy-section p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+  .policy-section ul li,
+  .policy-section ol li {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+  .footer-flexbox-top {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 35px 0;
+    row-gap: 15px;
+  }
+  .footer-flexbox-top div {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 98%;
+  }
+  .footer-flexbox-bottom {
+    flex-direction: column-reverse;
+    row-gap: 10px;
+    padding: 12px 0;
+  }
+
+  /* --------------Contact Us Page-------------- */
+  .contact-form-container > div {
+    padding: 60px 0;
+  }
+  .form {
+    grid-template-columns: 1fr;
+  }
+
+  .contact-info:before {
+    bottom: initial;
+    top: -75px;
+    right: 65px;
+    transform: scale(0.95);
+  }
+
+  .contact-form:before {
+    top: -13px;
+    left: initial;
+    right: 70px;
+  }
+
+  .circle.one {
+    width: 90px;
+    height: 90px;
+    top: 130px;
+    right: -40px;
+  }
+
+  .circle.two {
+    width: 50px;
+    height: 50px;
+    top: -20px;
+    right: -10px;
+  }
+
+  .contact-info:before {
+    bottom: 1px;
+    top: -40px;
+  }
+  /* ------------Security Devices and Security Officers Page--------------*/
+
+  .splitLtoR-section span,
+  .splitRtoL-section span {
+    font-size: 1.6rem;
+    font-weight: 600;
+  }
+  .splitLtoR-section-flexbox-right img {
+    aspect-ratio: 1/0.55;
+  }
+
+  .splitRtoL-section-flexbox-left img {
+    aspect-ratio: 1/0.55;
+  }
+  /* --------------About Us Page---------------- */
+  .about-section {
+    margin: 0 0 60px 0;
+  }
+  .our-team h2 {
+    margin-bottom: 25px;
+  }
+  .intro img {
+    height: 290px;
+    object-position: 50% 80%;
+    object-fit: cover;
+  }
+  .intro .caption h1 {
+    font-size: 2.5rem;
+    padding: 8px 15px;
+  }
+  .intro .caption {
+    top: 70%;
+    transform: translateY(-70%);
+  }
+  .intro .overlay svg {
+    display: none;
+  }
+  .our-team {
+    margin: 0 auto;
+  }
+  .our-team-card {
+    grid-template-columns: 100px 1fr;
+  }
+
+  .splitText-section {
+    margin: 80px 0 0 0;
+  }
+  .splitText-section-flexbox {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .splitText-section-flexbox-left {
+    padding: 40px 6vw 10px 6vw;
+  }
+  .splitText-section-flexbox-right {
+    padding: 15px 6vw 40px 6vw;
   }
 }
 
 @media (max-width: 576px) {
-  .logo img {
-    height: 50px;
-  }
-  .hero-section {
-    height: 65vh;
-  }
-  .hero-section img {
-    height: 65vh;
-  }
-  .hero-content h1 {
-    font-size: 2.5rem;
-    width: 90%;
-    line-height: 3.4rem;
-  }
-  .hero-content span {
-    padding: 12px 20px;
-    font-size: 1.5rem;
-  }
-  .hero-content-container {
-    top: 50%;
-    transform: translateY(-50%);
-  }
-
-  .ag-courses-item_title {
-    margin: 0 0 15px;
-    font-weight: 700;
-    font-size: 2.1rem;
-  }
-  .security-cards-gird-1 {
-    grid-template-columns: repeat(1, 1fr);
-    column-gap: 0;
-  }
-  .security-cards-gird-2 {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .ag-courses-item_content {
-    font-size: 15px;
-  }
-  .ag-courses-item_link {
-    padding: 20px 2px 25px 25px;
-    height: max-content;
-  }
-  .ag-courses-item_bg {
-    -webkit-transition: none;
-    -o-transition: none;
-    transition: none;
-  }
-  .ag-courses-item_link:hover .ag-courses-item_bg {
-    -webkit-transform: scale(1);
-    -ms-transform: scale(1);
-    transform: scale(1);
-  }
-  .policy-section h1 {
-    font-size: 3rem;
-  }
-  .policy-section h2 {
-    font-size: 2.2rem;
-  }
-  .policy-section h3 {
-    font-size: 1.8rem;
-  }
-  .contact-us-section-form {
-    width: 100%;
-    padding: 25px;
-  }
-  .contact-us-section-form form div {
-    flex-direction: column;
-  }
-  .contact-us-section-form form div > span {
-    width: 100%;
-  }
-  .contact-us-section-form form button {
-    font-size: 1.5rem;
-    padding: 8px 20px;
-  }
-  .contact-us-section-form h2 {
-    margin-bottom: 5px;
-  }
-  footer h4 {
-    font-size: 2.4rem;
-    text-align: left;
-  }
-
-  .footer-flexbox-top div i {
-    margin-bottom: 0;
-    margin-right: 15px;
-    font-size: 1.9rem;
-    padding: 14px 14px;
-  }
-  .footer-flexbox-top h3 {
-    text-align: left;
-  }
-  .footer-flexbox-top h3 {
-    font-size: 1.7rem;
-  }
-  .footer-flexbox-top h3 span {
-    font-size: 1.5rem;
-  }
-  .footer-links ul {
-    flex-direction: column;
-  }
-  .about-section {
-    margin: 80px 0;
-    padding: 50px 0;
-  }
-  .about-section-container-left h1 {
-    width: 90%;
-    font-size: 2.5rem;
-    line-height: 3rem;
-  }
-  .about-section-container-left p {
-    width: 90%;
-    font-size: 1.4rem;
-  }
-  .about-section-container-right p {
-    font-size: 1.5rem;
-  }
-  .our-team-card h4 {
-    font-size: 1.8rem;
-  }
-  .our-officers-section-flexbox-left ul li,
-  .our-officers-section-flexbox-right ul li {
-    font-size: 1.4rem;
-    line-height: 2.1rem;
-  }
-  .security-officers-section h1 {
-    font-size: 2.5rem;
-    line-height: 3.1rem;
-    margin-bottom: 10px;
-  }
-
-  .security-officers-section span {
-    font-size: 1.6rem;
-  }
-  .security-officers-section-flexbox {
-    margin: 20px 0;
-  }
-  .security-officers-section-flexbox-left h2 {
-    font-size: 2.1rem;
-    line-height: 2.8rem;
-  }
-  .security-officers-section-flexbox-left ul li {
-    font-size: 1.4rem;
-  }
-  .security-officers-section-flexbox-right img {
-    height: 300px;
-  }
-  .security-device-section-flexbox-right img {
-    height: 300px;
-  }
-  .security-device-section-alarm-flexbox-left img {
-    height: 300px;
-  }
-  .security-device-section h1 {
-    font-size: 2.5rem;
-    line-height: 3.1rem;
-    margin-bottom: 10px;
-  }
-  .security-device-section span {
-    font-size: 1.6rem;
-    line-height: 2.3rem;
-  }
-  .security-device-section-flexbox-left h2 {
-    font-size: 2.1rem;
-    line-height: 2.8rem;
-  }
-  .security-device-section-flexbox-left ul {
-    padding-right: 2vw;
-  }
-  .security-device-section-flexbox-left ul li {
-    font-size: 1.4rem;
-  }
-  .security-device-section-flexbox-alarm-right ul li {
-    font-size: 1.4rem;
-  }
-  .security-device-section-flexbox-alarm-right h2 {
-    font-size: 2.1rem;
-    line-height: 2.8rem;
-  }
-  .areas-services-section {
-    margin: 70px auto;
-    padding: 40px 20px;
-  }
-  .areas-services-section h2 {
-    font-size: 2rem;
-  }
-  .areas-services-section p {
-    font-size: 1.5rem;
-  }
-  .sectors-section h2 {
-    font-size: 2.1rem;
-  }
-  .what-we-can-section h2 {
-    font-size: 2.1rem;
-  }
-
-  .what-we-can-section span {
-    font-size: 1.7rem;
-  }
-  .what-we-can-section ul {
-    padding-right: 10px;
-  }
-
-  .what-we-can-section ul li {
-    font-size: 1.6rem;
-    margin-bottom: 5px;
-  }
-  .services-card {
-    grid-template-columns: repeat(1, 1fr);
-  }
-  .services-card img {
-    aspect-ratio: 4/2;
-  }
-  .services-card h4 {
-    font-size: 1.5rem;
-  }
   .pre-header__box div i {
     font-size: 1.3rem;
     margin-right: 4px;
   }
-
   .pre-header__box div a {
     font-size: 1.2rem;
   }
@@ -493,6 +283,111 @@
 
   .navlinks > li {
     margin: 0 0 0 20px;
+  }
+  .heading-2 {
+    font-size: 2.1rem;
+    line-height: 2.9rem;
+  }
+  .heading-3 {
+    font-size: 1.9rem;
+  }
+  .text-ul > li {
+    margin-bottom: 7px;
+    font-size: 1.5rem;
+    line-height: 2.1rem;
+  }
+  .text-p {
+    font-size: 1.5rem;
+    line-height: 2.3rem;
+  }
+
+  /* -----------Footer-------- */
+  footer {
+    padding: 30px 0 0 0;
+  }
+  footer h4 {
+    font-size: 2.2rem;
+  }
+  .footer-flexbox-top div i {
+    font-size: 2.3rem;
+  }
+
+  .footer-flexbox-top span {
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  .footer-flexbox-top {
+    row-gap: 20px;
+    margin: 30px 0;
+  }
+  .footer-flexbox-bottom ul li a {
+    font-size: 1.4rem;
+  }
+  .footer-flexbox-bottom .copyright {
+    font-size: 1.2rem;
+  }
+
+  /* -------Contact Form Page---------- */
+  .contact-form-container > div {
+    padding: 50px 0;
+  }
+  form {
+    padding: 10px 15px;
+  }
+  .contact-info {
+    padding: 30px 18px;
+  }
+  .text {
+    margin: 10px 0 25px 0;
+    font-size: 1.4rem;
+    font-weight: 500;
+  }
+  .information {
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+
+  .information i {
+    font-size: 1.7rem;
+  }
+  /* ------------Security Devices and Security Officers Page--------------*/
+  .splitLtoR-section h2,
+  .splitRtoL-section h2 {
+    margin-bottom: 5px;
+  }
+  .splitLtoR-section-flexbox,
+  .splitRtoL-section-flexbox {
+    row-gap: 25px;
+  }
+  .splitLtoR-section span,
+  .splitRtoL-section span {
+    font-size: 1.5rem;
+  }
+  .splitLtoR-section-flexbox-right img,
+  .splitRtoL-section-flexbox-left img {
+    height: 260px;
+  }
+  /* --------------About Us Page---------------- */
+  .intro img {
+    height: 220px;
+    object-position: 50% 100%;
+  }
+  .intro .caption h1 {
+    font-size: 2.1rem;
+    padding: 8px 15px;
+  }
+  .intro .caption {
+    top: 90%;
+    transform: translateY(-90%);
+  }
+  .intro .overlay svg {
+    display: none;
+  }
+  .about-section-content span {
+    font-size: 1.5rem;
+  }
+  .about-section-content p {
+    font-size: 1.5rem;
   }
 }
 
