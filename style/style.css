@@ -123,7 +123,7 @@ a {
 }
 /*------------- Header ------------*/
 .logo {
-  width: 67px;
+  width: 64px;
   cursor: pointer;
 }
 header {
@@ -140,7 +140,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 12px 0;
+  padding: 10px 0;
 }
 .navlinks {
   display: flex;
@@ -318,18 +318,18 @@ header {
 }
 
 .hero-content h1 {
-  font-size: 4rem;
+  font-size: 3.6rem;
   text-transform: uppercase;
-  width: 60%;
+  width: 50%;
   color: white;
 }
 .hero-content span {
   display: inline-block;
   background-color: var(--primay-color);
-  padding: 14px 24px;
+  padding: 13px 22px;
   margin-top: 20px;
   text-transform: uppercase;
-  font-size: 2.1rem;
+  font-size: 2rem;
   color: white;
   font-weight: 600;
 }
@@ -452,7 +452,7 @@ header {
   text-transform: capitalize;
   text-align: center;
   color: var(--primay-color);
-  width: 80%;
+  width: 95%;
   max-width: 850px;
   margin: 0 auto;
 }
@@ -460,7 +460,7 @@ header {
   text-transform: capitalize;
   text-align: center;
   padding-top: 20px;
-  width: 80%;
+  width: 95%;
   max-width: 800px;
   margin: 0 auto;
   font-weight: 600;
@@ -497,14 +497,9 @@ header {
 }
 .what-we-can-section ul:first-of-type {
   background-color: var(--seconday-color);
-  /* border-radius: 30px;
-  border-top-right-radius: 0; */
 }
 .what-we-can-section ul:last-of-type {
   background-color: var(--third-color);
-
-  /* border-radius: 30px;
-  border-top-left-radius: 0; */
 }
 .what-we-can-section ul li {
   text-indent: -25px;
@@ -517,44 +512,10 @@ header {
   color: #234056;
   opacity: 0.9;
 }
-.services-card {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  grid-row-gap: 20px;
-  grid-column-gap: 30px;
-  margin: 60px 0 80px 0;
-}
 
-.services-card div {
-  background-color: rgba(45, 32, 124, 0.8);
-  border-radius: 6px;
-  box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.24);
-}
-
-.services-card img {
-  width: 100%;
-  object-fit: cover;
-  object-position: center;
-  aspect-ratio: 4/4;
-  border-top-left-radius: 80px;
-  transition: all 0.4s ease-in-out;
-}
-.services-card img:hover {
-  border-top-left-radius: 10px;
-  transition: all 0.4s ease-in-out;
-  border-bottom-right-radius: 80px;
-}
-.services-card h4 {
-  text-align: center;
-  text-transform: uppercase;
-  font-size: 1.7rem;
-  font-weight: 500;
-  margin: 15px 0;
-  color: white;
-}
 /* ---------Sectors Section------------ */
 .sectors-section {
-  margin: 120px auto;
+  margin: 110px auto;
 }
 .sectors-section h2 {
   text-transform: uppercase;
@@ -564,7 +525,8 @@ header {
 .sections-section-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  width: 70%;
+  max-width: 786px;
+  width: 100%;
   margin: 0 auto;
 }
 .sections-section-grid span {
