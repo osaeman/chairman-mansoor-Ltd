@@ -18,7 +18,7 @@
     font-size: 3rem;
     width: 65%;
   }
-  .hero-content span {
+  .hero-content a {
     padding: 11px 20px;
     font-size: 1.8rem;
   }
@@ -152,7 +152,7 @@
     font-size: 1.3rem;
   }
   .logo {
-    width: 50px;
+    width: 46px;
   }
   .header-box {
     padding: 8px 0;
@@ -174,7 +174,7 @@
     font-size: 2.4rem;
     width: 70%;
   }
-  .hero-content span {
+  .hero-content a {
     padding: 10px 18px;
     font-size: 1.7rem;
   }
@@ -401,7 +401,7 @@
     font-size: 1.8rem;
     width: 55%;
   }
-  .hero-content span {
+  .hero-content a {
     padding: 8px 12px;
     font-size: 1.4rem;
     text-transform: capitalize;

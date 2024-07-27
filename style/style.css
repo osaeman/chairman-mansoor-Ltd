@@ -123,7 +123,7 @@ a {
 }
 /*------------- Header ------------*/
 .logo {
-  width: 64px;
+  width: 58px;
   cursor: pointer;
 }
 header {
@@ -323,7 +323,7 @@ header {
   width: 50%;
   color: white;
 }
-.hero-content span {
+.hero-content a {
   display: inline-block;
   background-color: var(--primay-color);
   padding: 13px 22px;
