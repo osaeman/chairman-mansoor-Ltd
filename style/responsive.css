@@ -15,8 +15,9 @@
   }
   /* ----------------Home Page--------------- */
   .hero-content h1 {
-    font-size: 3rem;
+    font-size: 3.8rem;
     width: 65%;
+    line-height: 4.5rem;
   }
   .hero-content a {
     padding: 11px 20px;
@@ -137,6 +138,19 @@
     padding: 50px 6vw 40px 6vw;
   }
 }
+@media (max-width: 900px) {
+  .contact-footer__container {
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .contact-footer__brand img {
+    width: 125px;
+  }
+  .contact-footer__bottom {
+    flex-direction: column;
+    text-align: center;
+  }
+}
 @media (max-width: 786px) {
   .menu {
     display: none;
@@ -171,8 +185,9 @@
   }
   /* ----------------Home Page--------------- */
   .hero-content h1 {
-    font-size: 2.4rem;
-    width: 70%;
+    font-size: 3rem;
+    width: 75%;
+    line-height: 3.9rem;
   }
   .hero-content a {
     padding: 10px 18px;
@@ -185,7 +200,7 @@
     height: 470px;
   }
   .areas-services-section {
-    margin: 80px auto;
+    margin: 70px auto;
   }
   .what-we-can-section span {
     font-size: 1.7rem;
@@ -197,6 +212,7 @@
     grid-template-columns: repeat(1, 1fr);
     margin: 20px 0;
   }
+
   .what-we-can-section ul:first-of-type {
     padding: 30px 20px 10px 20px;
   }
@@ -204,7 +220,8 @@
     padding: 18px 20px 20px 20px;
   }
   .what-we-can-section ul li {
-    font-size: 1.6rem;
+    font-size: 1.5rem;
+    margin-left: 23px;
   }
   .sectors-section {
     margin: 80px auto;
@@ -213,11 +230,12 @@
     padding: 15px 15px;
   }
   .areas-services-section .heading-3 {
-    font-size: 1.7rem;
-    line-height: 2.4rem;
+    font-size: 1.65rem;
+    line-height: 2.2rem;
   }
   .areas-services-section .text-p {
     font-size: 1.4rem;
+    line-height: 2.2rem;
   }
   /* -----------------Privacy and Terms of Use Page---------------------- */
   .policy-section {
@@ -241,24 +259,6 @@
   .policy-section ol li {
     font-size: 1.5rem;
     line-height: 2.3rem;
-  }
-  .footer-flexbox-top {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 35px 0;
-    row-gap: 15px;
-  }
-  .footer-flexbox-top div {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 98%;
-  }
-  .footer-flexbox-bottom {
-    flex-direction: column-reverse;
-    row-gap: 10px;
-    padding: 12px 0;
   }
 
   /* --------------Contact Us Page-------------- */
@@ -285,20 +285,37 @@
   .circle.one {
     width: 90px;
     height: 90px;
-    top: 130px;
+    top: 160px;
     right: -40px;
   }
 
   .circle.two {
     width: 50px;
     height: 50px;
-    top: -20px;
+    top: 20px;
     right: -10px;
   }
 
   .contact-info:before {
     bottom: 1px;
     top: -40px;
+  }
+
+  .contact-info__points {
+    margin: 18px 0 24px;
+  }
+  .contact-info__point {
+    grid-template-columns: 34px 1fr;
+    padding: 11px 12px;
+  }
+  .contact-info__point i {
+    width: 34px;
+    height: 34px;
+    font-size: 1.3rem;
+  }
+  .contact-info__point span {
+    font-size: 1.34rem;
+    line-height: 1.95rem;
   }
   /* ------------Security Devices and Security Officers Page--------------*/
 
@@ -345,6 +362,10 @@
   }
   .our-team-card h4 {
     font-weight: 500;
+    font-size: 1.55rem;
+  }
+  .our-team-card span {
+    font-size: 1.7rem;
   }
 
   .splitText-section {
@@ -381,11 +402,12 @@
     margin: 0 0 0 20px;
   }
   .heading-2 {
-    font-size: 2.1rem;
-    line-height: 2.9rem;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
   }
   .heading-3 {
-    font-size: 1.9rem;
+    font-size: 1.75rem;
+    line-height: 2.4rem;
   }
   .text-ul > li {
     margin-bottom: 7px;
@@ -398,8 +420,9 @@
   }
   /* ----------------Home Page--------------- */
   .hero-content h1 {
-    font-size: 1.8rem;
-    width: 55%;
+    font-size: 2.25rem;
+    line-height: 2.8rem;
+    width: 90%;
   }
   .hero-content a {
     padding: 8px 12px;
@@ -407,10 +430,10 @@
     text-transform: capitalize;
   }
   .hero-section {
-    height: 330px;
+    height: 360px;
   }
   .hero-section img {
-    height: 330px;
+    height: 360px;
   }
 
   .security-cards-gird-1 {
@@ -421,13 +444,17 @@
   }
 
   .card-hover {
-    height: 300px;
+    height: 350px;
   }
   .card-hover__title {
-    font-size: 2rem;
+    font-size: 1.8rem;
+  }
+  .card-hover__text {
+    font-size: 1.37rem;
+    line-height: 1.7rem;
   }
   .card-hover__content {
-    padding: 0 10px 15px 10px;
+    padding: 0 15px 15px 15px;
   }
 
   .security-cards-gird-2 > .card-hover {
@@ -461,31 +488,38 @@
     background-color: var(--seconday-color);
   }
   /* -----------Footer-------- */
-  footer {
-    padding: 30px 0 0 0;
+  footer.contact-footer {
+    padding-top: 42px;
   }
-  footer h4 {
-    font-size: 2rem;
+  .contact-footer__brand img {
+    width: 85px;
   }
-  .footer-flexbox-top div i {
-    font-size: 2.3rem;
+  .contact-footer__brand p {
+    font-size: 1.35rem;
+    line-height: 2.15rem;
   }
-
-  .footer-flexbox-top span {
-    font-weight: 500;
-    font-size: 1.4rem;
+  .contact-footer__item {
+    grid-template-columns: 40px 1fr;
+    padding: 15px;
   }
-  .footer-flexbox-top {
-    row-gap: 20px;
-    margin: 30px 0;
+  .contact-footer__item i {
+    width: 40px;
+    height: 40px;
+    font-size: 1.45rem;
   }
-  .footer-flexbox-bottom ul li a {
+  .contact-footer__item a,
+  .contact-footer__item p {
     font-size: 1.3rem;
   }
-  .footer-flexbox-bottom .copyright {
-    font-size: 1.2rem;
+  .contact-footer__bottom p {
+    font-size: 1.19rem;
   }
-
+  .contact-footer__links {
+    gap: 20px;
+  }
+  .contact-footer__links a {
+    font-size: 1.19rem;
+  }
   /* -------Contact Form Page---------- */
   .contact-form-container > div {
     padding: 50px 0;
@@ -501,13 +535,19 @@
     font-size: 1.4rem;
     font-weight: 500;
   }
-  .information {
-    font-size: 1.4rem;
-    font-weight: 600;
-  }
 
-  .information i {
-    font-size: 1.7rem;
+  .field-error {
+    font-size: 1.1rem;
+  }
+  .contact-info__point {
+    grid-template-columns: 32px 1fr;
+  }
+  .contact-info__point i {
+    width: 32px;
+    height: 32px;
+  }
+  .contact-info__point span {
+    font-size: 1.28rem;
   }
   /* ------------Security Devices and Security Officers Page--------------*/
   .splitLtoR-section h2,
@@ -531,12 +571,12 @@
   }
   /* ------------ --About Us Page---------------- */
   .intro img {
-    height: 220px;
+    height: 240px;
     object-position: 50% 100%;
   }
   .intro .caption h1 {
-    font-size: 2.1rem;
-    padding: 8px 15px;
+    font-size: 1.95rem;
+    padding: 10px 17px;
   }
   .intro .caption {
     top: 90%;
@@ -547,6 +587,7 @@
   }
   .about-section-content span {
     font-size: 1.5rem;
+    margin-bottom: 15px;
   }
   .about-section-content p {
     font-size: 1.4rem;
